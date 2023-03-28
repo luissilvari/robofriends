@@ -2,6 +2,11 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
+  if(true){
+    throw new Error('NOOOOOOOOOO'); 
+    // THIS IS looking to hadle the eror when something wrong happens. in dev mode it show us when an error occur but in prod it will not
+
+  }
   return (
     <div>
       {
